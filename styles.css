@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+body, html {
+    display: flex;
+    background-image: linear-gradient(orange,pink);
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+form{
+    background-color: white;
+    color: black;
+    width: 300px;
+    padding: 30px;
+    border-radius: 50px;
+    text-align: center;
+}
+h1{
+    color:black;
+}
+button{
+    border-radius: 50px;
+    width: 100px;
+    padding:10px;
+    background-image:linear-gradient(violet,blue);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+p{
+   padding: 30px; 
+}
+.pass{
+    padding-left: 30px;
+}
+.google-logo{
+    width:40px;
+    height:50px;
+    border-radius:50%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.google-log{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    margin-top: 10px;
+}
